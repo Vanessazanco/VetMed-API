@@ -5,7 +5,7 @@ import vet.med.api.endereco.DadosEndereco;
 public record DadosCadastroVeterianrio(
         String nome,
         String email,
-        String crm,
+        String crmv,
         Especialidade especialidade,
         DadosEndereco endereco) {
 }
